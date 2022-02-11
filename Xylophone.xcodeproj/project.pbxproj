@@ -12,7 +12,7 @@
 		379A340C27B6791700B166DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 379A340B27B6791700B166DC /* Preview Assets.xcassets */; };
 		379A341627B679BE00B166DC /* XylophoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A341527B679BE00B166DC /* XylophoneView.swift */; };
 		379A341927B679D200B166DC /* XylophoneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A341827B679D200B166DC /* XylophoneCell.swift */; };
-		379A341E27B67A3A00B166DC /* XylophoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A341D27B67A3A00B166DC /* XylophoneViewModel.swift */; };
+		379A341E27B67A3A00B166DC /* AudioPlayer in Sources */ = {isa = PBXBuildFile; fileRef = 379A341D27B67A3A00B166DC /* AudioPlayer */; };
 		379A342127B67B1300B166DC /* SheetMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379A342027B67B1300B166DC /* SheetMusic.swift */; };
 		379A342B27B6809D00B166DC /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 379A342427B6809D00B166DC /* A.wav */; };
 		379A342C27B6809D00B166DC /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 379A342527B6809D00B166DC /* D.wav */; };
@@ -30,7 +30,7 @@
 		379A340B27B6791700B166DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		379A341527B679BE00B166DC /* XylophoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneView.swift; sourceTree = "<group>"; };
 		379A341827B679D200B166DC /* XylophoneCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneCell.swift; sourceTree = "<group>"; };
-		379A341D27B67A3A00B166DC /* XylophoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylophoneViewModel.swift; sourceTree = "<group>"; };
+		379A341D27B67A3A00B166DC /* AudioPlayer */ = {isa = PBXFileReference; lastKnownFileType = text; path = AudioPlayer; sourceTree = "<group>"; };
 		379A342027B67B1300B166DC /* SheetMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetMusic.swift; sourceTree = "<group>"; };
 		379A342427B6809D00B166DC /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
 		379A342527B6809D00B166DC /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 				379A342227B67D7300B166DC /* Helpers */,
 				379A341F27B67AA300B166DC /* Model */,
 				379A341C27B67A1A00B166DC /* App */,
-				379A341427B679AB00B166DC /* Screen */,
+				379A341427B679AB00B166DC /* Screens */,
 				379A340A27B6791700B166DC /* Preview Content */,
 			);
 			path = Xylophone;
@@ -89,12 +89,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		379A341427B679AB00B166DC /* Screen */ = {
+		379A341427B679AB00B166DC /* Screens */ = {
 			isa = PBXGroup;
 			children = (
 				379A341B27B67A0800B166DC /* Xylophone */,
 			);
-			path = Screen;
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		379A341727B679C500B166DC /* View */ = {
@@ -134,7 +134,7 @@
 		379A342227B67D7300B166DC /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				379A341D27B67A3A00B166DC /* XylophoneViewModel.swift */,
+				379A341D27B67A3A00B166DC /* AudioPlayer */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -232,7 +232,7 @@
 			files = (
 				379A341927B679D200B166DC /* XylophoneCell.swift in Sources */,
 				379A341627B679BE00B166DC /* XylophoneView.swift in Sources */,
-				379A341E27B67A3A00B166DC /* XylophoneViewModel.swift in Sources */,
+				379A341E27B67A3A00B166DC /* AudioPlayer in Sources */,
 				379A340527B6791500B166DC /* XylophoneApp.swift in Sources */,
 				379A342127B67B1300B166DC /* SheetMusic.swift in Sources */,
 			);
